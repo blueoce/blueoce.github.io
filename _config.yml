@@ -86,22 +86,21 @@ navs:
     mobile-hidden: true  # 则该链接将不会在移动设备上显示。
   
 
-  -
-    href: /open-source/
-    label: 开源
-    #mobile-hidden: true
-    display : none # 在所有设备上隐藏 
-
-  -
-    href: /fragments/
-    label: 片段
-    display : none  # 在所有设备上隐藏 
+  # -
+  #   href: /open-source/
+  #   label: 开源
+  #   mobile-hidden: true
 
 
-  -
-    href: /wiki/
-    label: 维基
-    display : none  # 在所有设备上隐藏 
+  # -
+  #   href: /fragments/
+
+
+
+  # -
+  #   href: /wiki/
+  #   label: 维基
+
 
   -
     href: /links/
