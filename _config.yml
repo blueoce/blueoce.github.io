@@ -2,8 +2,8 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
-#url: jacklonghua.github.io # 免得跳到 被人的网页去。
+#url: https://mazhuang.org
+url: jacklonghua.github.io # 免得跳到 被人的网页去。
 date_format: "ordinal"
 title: 蓝海思源  # 主标题 左上 
 subtitle: " 淘宝：蓝海思源"   
