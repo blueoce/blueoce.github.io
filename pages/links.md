@@ -8,7 +8,7 @@ menu: 链接
 permalink: /links/
 ---
 
-> God made relatives. Thank God we can choose our friends.
+> 产品已经为您选好，可以直接点击下面的连接，前往淘宝下单
 
 <ul>
 {% for link in site.data.links %}
