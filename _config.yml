@@ -104,12 +104,12 @@ navs:
 
   -
     href: /links/
-    label: 产品链接
+    label: 产品
     mobile-hidden: true
 
   -
     href: /about/
-    label: 价值观
+    label: 使命
 
 # ---------------- #
 #       RSS        #
