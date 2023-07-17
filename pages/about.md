@@ -16,7 +16,7 @@ permalink: /about/
 
 右上角微信微信扫码留言，说明您对问题的看法，我们会尽快给您满意的答复。
 
-## 联系
+## 技术支持微信： jack_chen_gk
 
 <ul>
 {% for website in site.data.social %}
@@ -31,7 +31,6 @@ permalink: /about/
 </ul>
 
 
-## Skill Keywords
 
 {% for skill in site.data.skills %}
 ### {{ skill.name }}
