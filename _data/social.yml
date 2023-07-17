@@ -4,8 +4,8 @@
 #   name: mzlogin
 #   url: https://github.com/mzlogin
 
-- sitename: 微信
-  name: wechat:jack_chen_gk
+- sitename: 微信： jack_chen_gk
+  # name: 微信号： jack_chen_gk
 #   url: http://gold.xitu.io/user/570ddaeb2e958a005c63b2da
 
 # - sitename: LinkedIn
