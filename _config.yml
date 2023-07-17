@@ -94,7 +94,7 @@ navs:
 
   # -
   #   href: /fragments/
-
+  #   label: 片断
 
 
   # -
@@ -104,12 +104,12 @@ navs:
 
   -
     href: /links/
-    label: 链接
+    label: 产品链接
     mobile-hidden: true
 
   -
     href: /about/
-    label: 关于
+    label: 价值观
 
 # ---------------- #
 #       RSS        #
