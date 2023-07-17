@@ -89,15 +89,19 @@ navs:
   -
     href: /open-source/
     label: 开源
-    mobile-hidden: true
+    #mobile-hidden: true
+    hidden: true  # 在所有设备上隐藏 
 
   -
     href: /fragments/
     label: 片段
+    hidden: true  # 在所有设备上隐藏 
+
 
   -
     href: /wiki/
     label: 维基
+    hidden: true  # 在所有设备上隐藏 
 
   -
     href: /links/
