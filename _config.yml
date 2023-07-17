@@ -15,7 +15,8 @@ encoding: "utf-8"
 # 页面左下角显示的年份
 since: 2023
 # 源码仓库，请替换成自己的
-repository: mzlogin/mzlogin.github.io
+repository: jacklonghua/jacklonghua.github.io
+#repository: mzlogin/mzlogin.github.io
 #repository: jacklonghua.github.io    //改了自己的就不行 
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
