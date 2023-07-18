@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 逻辑分析仪驱动安装
+title: 24M逻辑分析仪驱动安装方法
 categories: 逻辑分析仪24M
-description: 平时使用 Windows 时总结的一些实用的小技巧。
+description: 24M逻辑分析仪驱动安装方法图解
 keywords: 逻辑分析仪, 24M
 ---
 
@@ -10,95 +10,45 @@ keywords: 逻辑分析仪, 24M
 
 * TOC
 {:toc}
+### 插上USB设备，软件显示未连接
 
-### 设备一直显示未连接
+1.2.40 或者其他1代的软件版本，插上USB后未连接如下图所示。
 
-<img src="/images/posts/windows/rclick.png" alt="Windows Skills" />
+<img src="/images/posts/driver/unlink_a.png" alt="1代软件连接失败" />
+
+2.3.47 或者其他二代的软件版本，插上USB后未连接如下图所示。
+
+<img src="/images/posts/driver/unlink_b.png" alt="2代软件连接失败" />
 
 ### 查看设备管理器，显示未知设备
 
+<img src="/images/posts/driver/driver_1.png" alt="显示未知设备" />
 
+### 反复插拔USB，直到出现问号的设备
 
-### 标题2
+<img src="/images/posts/driver/driver_2.png" alt="显示未知设备有叹号" />
 
-控制面板 -- 索引选项 -- 高级 -- 文件类型 -- 找到你想要搜索内容的文件后缀名，点中它，然后选中下面的「为属性和文件内容添加索引」。
+### 给未知设备更新驱动程序
 
-### 标题3
+驱动程序就在软件的安装目录下，软件安装目录，如下所示：
 
-**注：**经验证此方法也适用于 Win10，但是完成后需要**重启**。
+C:\Program Files\Logic\Drivers                               二代软件
 
-因为个人习惯输入大写字母时使用「Shift + 字母」的方式，所以 Caps Lock 键并没有什么用，而且经常使用 Vim，偶尔使用 Emacs，都需要频繁地按 Ctrl 键，在 Mac OS X 下已经将 Caps Lock 键映射为 Ctrl，为了统一体验和按键方便，也需要在 Windows 下做一个映射。
+Logic-1.2.40-Windows (1)\Logic-1.2.40\Drivers    一代软件
 
-先说方法：
+<img src="/images/posts/driver/driver_3.png" alt="更新驱动程序" />
 
-将如下代码保存为 .reg 文件然后执行即可。
+### 安装完驱动，设备管理器就可以正常识别到设备了
 
-```
-Windows Registry Editor Version 5.00
+<img src="/images/posts/driver/driver_4.png" alt="正确识别到设备" />
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
-"Scancode Map"=hex:00,00,00,00,00,00,00,00,02,00,00,00,1d,00,3a,00,00,00,00,00
-```
+### 再返回软件就可以看到已经连接的状态
 
-再说原理：
+1.2.40 或者其他1代的软件版本，插上USB后已经连接如下图所示。
 
-Scancode Map 这个键值的讲解实例参见 [Keyboard and mouse class drivers (Windows Drivers)](https://msdn.microsoft.com/en-us/library/windows/hardware/jj128267(v=vs.85).aspx#code-snippet-1)，我们这里填写的值
+<img src="/images/posts/driver/link_a.png" alt="一代软件已经连接" />
 
-```
-00000000 00000000 02000000 1d003a00 00000000
-```
+2.3.47 或者其他二代的软件版本，插上USB后已经连接如下图所示。
 
-可以对应理解如下：
+<img src="/images/posts/driver/link_b.png" alt="二代软件已经连接" />
 
-| 值         | 说明                                     |
-|------------|------------------------------------------|
-| 0x00000000 | Header: 版本。全部设置为 0。             |
-| 0x00000000 | Header: 标志。全部设置为 0。             |
-| 0x00000002 | 2 条映射条目（包括结尾的 null 条目）。   |
-| 0x003a001d | Caps Lock --> Left Ctrl (0x3a --> 0x1d). |
-| 0x00000000 | 终止符，即 null 条目。                   |
-
-### 标题4
-
-1. 右键任务栏库图标，右键弹出菜单里的“Windows 资源管理器”，单击“属性”。
-
-   ![](/images/posts/windows/library-to-computer-step-1.jpg)
-
-2. 在弹出对话框里将“目标”一栏的 `%windir%\explorer.exe` 改为 `%windir%\explorer.exe ,`，即加上一个空格一个逗号。
-
-   ![](/images/posts/windows/library-to-computer-step-2.png)
-
-参考：[如何将Win7/Win8任务栏库图标变为打开计算机](http://jingyan.baidu.com/article/046a7b3ee71d61f9c27fa91a.html)
-
-### Win10 x64 下使用 ComMonitor
-
-ComMonitor 算是比较好用的串口调试工具了，但是已经很久没有更新，在 Win10 下无法直接使用，打开会弹出错误提示：
-
-```
-没有找到 C:\Windows\system32\msrd3x43.dll
-```
-
-要在 Win10 64 位操作系统下正常使用 ComMonitor 的步骤是：
-
-1. 下载 msrd3x43.dll，放到 C:\Windows\SysWOW64 下；
-
-2. 右键 ComMonitor.exe -- 属性 -- 兼容性 -- 以兼容模式运行这个程序，选择 “Windows XP (Service Pack 2)”，应用。
-
-我使用的 ComMinotor v4.5 版本及 msrd3x43.dll 文件可以到百度网盘下载：
-
-<https://pan.baidu.com/s/1nuDa0JJ>
-
-### Win10 下 Chrome 最新版崩溃
-
-突然有一天就什么也打不开了，不断的报 XX 插件崩溃，反正是所有插件都崩溃，设置页面都进不去。
-
-解决方法：
-
-```
-Windows Registry Editor Version 5.00
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
-"RendererCodeIntegrityEnabled"=dword:00000000
-```
-
-将以上内容保存为 chrome.reg 文件然后运行。
