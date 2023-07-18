@@ -11,50 +11,13 @@ keywords: 逻辑分析仪, 24M
 * TOC
 {:toc}
 
-### 标题1
+### 设备一直显示未连接
 
 <img src="/images/posts/windows/rclick.png" alt="Windows Skills" />
 
-图上的这条右键命令一般在 Win7 下是需要 Shift + 右键在弹出菜单里才能看到的，怎么省掉这个 Shift，直接就能出来呢？
+### 查看设备管理器，显示未知设备
 
-先说方法：
 
-将如下代码保存为 .reg 文件然后执行即可。
-
-```
-Windows Registry Editor Version 5.00
-
-[HKEY_CLASSES_ROOT\Directory\shell\cmd]
-"Extended"=-
-
-[HKEY_CLASSES_ROOT\Drive\shell\cmd]
-"Extended"=-
-
-[HKEY_CLASSES_ROOT\LibraryFolder\background\shell]
-@="none"
-
-[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\cmd]
-@="@shell32.dll,-8506"
-"NoWorkingDirectory"=""
-"Extended"=-
-
-[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\cmd\command]
-@="cmd.exe /s /k pushd \"%V\""
-```
-
-再说原理：
-
-1. 普通文件夹右键
-
-   将注册表 HKEY_CLASSES_ROOT\Directory\Background\shell\cmd 下的键 Extended 改名或者删除
-
-2. 磁盘分区右键
-
-   将注册表 HKEY_CLASSES_ROOT\Drive\shell\cmd 下的键 Extended 改名或者删除
-
-3. 库文件夹右键
-
-   在注册表 HKEY_CLASSES_ROOT\LibraryFolder\background 下建立和第一条的 Directory\Background 中相同的键值
 
 ### 标题2
 
