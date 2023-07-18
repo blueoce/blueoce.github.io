@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 高频问题汇总
+title: 问题汇总---售前咨询
 categories: 逻辑分析仪24M  逻辑分析仪400M
 description: 总结之前客户常见的售前咨询问题
 keywords: 逻辑分析仪, 24M, 400M, 
