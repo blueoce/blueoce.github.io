@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 售前常见问题汇总
+title: 高频问题汇总
 categories: 逻辑分析仪24M  逻辑分析仪400M
 description: 总结之前客户常见的售前咨询问题
 keywords: 逻辑分析仪, 24M, 400M, 
@@ -13,55 +13,33 @@ keywords: 逻辑分析仪, 24M, 400M,
 
 ### 发货时间，发货地点，发货方式
 
+| 快递方式，客户可选择           | 顺丰快递到付                                                 | 默认普通快递        |
+| ------------------------------ | ------------------------------------------------------------ | ------------------- |
+| 发货时间                       | 1个小时内顺丰把货取走。                                      | 每天晚上9点前发货。 |
+| 发货地点                       | 深圳龙华                                                     | 深圳龙华            |
+| 发货时效---顺丰跑腿---美团跑腿 | 对于在深圳市清湖地铁周边的客户。配送价格按照距离收费。       | 不支持              |
+| 发货时效---顺丰同城件          | 对于在深圳市内的客户，上午下单，下午可以到，就是同城当天件。 | 不支持              |
+| 发货时效---空运                | 对于距离远的客户，北京，四川，重庆，空运是很好的选择。       | 不支持              |
+| 发货时效---陆运                | 顺丰陆运配送由专人负责，不会出现货在菜鸟驿站不好找的情况。到货时间可控。 | 支持                |
+| 详细地址和真实号码             | 选择发顺丰快递，请留---详细的地址----真实的手机号码---给客服，才能在顺丰平台下单。<br />虚拟号码，模糊的地址，顺丰下单平台无法下单，也影响收货时效。非常感谢您的支持。 | 普通快递不要求      |
 
-<img src="/images/posts/windows/rclick.png" alt="Windows Skills" />
+### 常见通信接口
 
-图上的这条右键命令一般在 Win7 下是需要 Shift + 右键在弹出菜单里才能看到的，怎么省掉这个 Shift，直接就能出来呢？
+| 接口类型         | 24M逻辑分析仪       | 400M逻辑分析仪 | 测试方法                     |
+| ---------------- | ------------------- | -------------- | ---------------------------- |
+| 232接口          | 可以分析            | 可以分析       | 最稳定的方法，加232转TTL模块 |
+| 485接口          | 可以分析            | 可以分析       | 最稳定的方法，加485转TTL模块 |
+| Modbus接口       | 可以分析            | 可以分析       | 最稳定的方法，加485转TTL模块 |
+| LIN接口          | 可以分析            | 可以分析       | 最稳定的方法，加LIN转TTL模块 |
+| CAN接口          | 可以分析            | 可以分析       | 最稳定的方法，加CAN转TTL模块 |
+| CANOPEN接口      | 可以分析            | 可以分析       | 最稳定的方法，加CAN转TTL模块 |
+| 低速USB(12M)     | 可以分析            | 可以分析       | 直接可测。                   |
+| 高速USB(大于12M) | 不可分析            | 可以分析       | 直接可测。                   |
+| PWM_3.3V-5V      | 可以分析            | 可以分析       | 直接可测。                   |
+| IIC接口          | 可以分析            | 可以分析       | 直接可测。                   |
+| SPI接口          | 可以分析,最快测到6M | 可以分析       | 直接可测。                   |
 
-先说方法：
-
-将如下代码保存为 .reg 文件然后执行即可。
-
-```
-Windows Registry Editor Version 5.00
-
-[HKEY_CLASSES_ROOT\Directory\shell\cmd]
-"Extended"=-
-
-[HKEY_CLASSES_ROOT\Drive\shell\cmd]
-"Extended"=-
-
-[HKEY_CLASSES_ROOT\LibraryFolder\background\shell]
-@="none"
-
-[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\cmd]
-@="@shell32.dll,-8506"
-"NoWorkingDirectory"=""
-"Extended"=-
-
-[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\cmd\command]
-@="cmd.exe /s /k pushd \"%V\""
-```
-
-再说原理：
-
-1. 普通文件夹右键
-
-   将注册表 HKEY_CLASSES_ROOT\Directory\Background\shell\cmd 下的键 Extended 改名或者删除
-
-2. 磁盘分区右键
-
-   将注册表 HKEY_CLASSES_ROOT\Drive\shell\cmd 下的键 Extended 改名或者删除
-
-3. 库文件夹右键
-
-   在注册表 HKEY_CLASSES_ROOT\LibraryFolder\background 下建立和第一条的 Directory\Background 中相同的键值
-
-### 标题2
-
-控制面板 -- 索引选项 -- 高级 -- 文件类型 -- 找到你想要搜索内容的文件后缀名，点中它，然后选中下面的「为属性和文件内容添加索引」。
-
-### 标题3
+### 采样速度，分析信号速度
 
 **注：**经验证此方法也适用于 Win10，但是完成后需要**重启**。
 
