@@ -14,11 +14,11 @@ keywords: 逻辑分析仪, 400M,
 
 | 支持协议    \    支持软件                | DSView 下载地址                                              | PulseView 下载地址                                           |
 | ---------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| windows 64位(包含 win7 win8 win10 win11) | [window_64位_1.3.0](https://bluepi.lanzouy.com/iMP1k13a2afc) | [window_64位_0.4.2](https://bluepi.lanzouy.com/iMP1k13a2afc) |
+| windows 64位(包含 win7 win8 win10 win11) | [window_64位_1.3.0](https://bluepi.lanzouy.com/iMP1k13a2afc) | [window_64位_0.4.2](https://bluepi.lanzouy.com/ivhzN13bm3sj) |
 | windows 32位(包含 win7 win8 )            | [window_32位_1.1.2](https://bluepi.lanzouy.com/iMP1k13a2afc) | [window_32位_0.4.2](https://bluepi.lanzouy.com/iKs3X13a7ltc) |
-| Ubuntu 等 Linux版本64位                  | [linux_1.3.0](https://bluepi.lanzouy.com/iMP1k13a2afc)       | [linux_64位_0.4.2](https://bluepi.lanzouy.com/iMP1k13a2afc)  |
+| Ubuntu 等 Linux版本64位                  | [linux_1.3.0](https://bluepi.lanzouy.com/iMP1k13a2afc)       | [linux_64位_0.4.2](https://bluepi.lanzouy.com/i9Go313blp4b)  |
 | Ubuntu 等 Linux版本32位                  |                                                              | [linux_32位_0.4.2](https://bluepi.lanzouy.com/iMP1k13a2afc)  |
-| Mac_OS X10.13 及以上版本64位             | [Mac_OS_1.3.0](https://bluepi.lanzouy.com/iMP1k13a2afc)      | [Mac_OS_64位_0.4.2](https://bluepi.lanzouy.com/iMP1k13a2afc) |
+| Mac_OS X10.13 及以上版本64位             | [Mac_OS_1.3.0](https://bluepi.lanzouy.com/iMP1k13a2afc)      | [Mac_OS_64位_0.4.2](https://bluepi.lanzouy.com/ifepe13bl6zi) |
 | 区别                                     | 有触发阈值调节                                               | 无触发阈值调节                                               |
 
 ### PulseView安装驱动文件的方法
@@ -188,6 +188,15 @@ C:\Program Files (x86)\sigrok\PulseView\share\sigrok-firmware 软件PluseView安
 触发电压方法如下图所示。
 
 <img src="/images/posts/dslogic/trig_voltage.png" alt="触发电压设置方法"/>
+
+### 发货清单
+
+| 序号 | 发货清单                                  |
+| ---- | ----------------------------------------- |
+| 1    | 400M逻辑分析仪主机 <br />兼容DSLogic Plus |
+| 2    | USB方口硅胶线                             |
+| 3    | 9根彩色硅胶杜邦线*2组                     |
+| 4    | 2根备用硅胶线                             |
 
 
 
