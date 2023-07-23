@@ -17,7 +17,7 @@ keywords: 逻辑分析仪, 400M,
 | windows 64位(包含 win7 win8 win10 win11) | [window_64位_1.3.0](https://bluepi.lanzouy.com/iMP1k13a2afc) | [window_64位_0.4.2](https://bluepi.lanzouy.com/ivhzN13bm3sj) |
 | windows 32位(包含 win7 win8 )            | [window_32位_1.1.2](https://bluepi.lanzouy.com/iMP1k13a2afc) | [window_32位_0.4.2](https://bluepi.lanzouy.com/iKs3X13a7ltc) |
 | Ubuntu 等 Linux版本64位                  | [linux_1.3.0](https://bluepi.lanzouy.com/iMP1k13a2afc)       | [linux_64位_0.4.2](https://bluepi.lanzouy.com/i9Go313blp4b)  |
-| Ubuntu 等 Linux版本32位                  |                                                              | [linux_32位_0.4.2](https://bluepi.lanzouy.com/iMP1k13a2afc)  |
+| Ubuntu 等 Linux版本32位                  |                                                              | [linux_32位_0.4.2](https://bluepi.lanzouy.com/ipqyo13bunmb)  |
 | Mac_OS X10.13 及以上版本64位             | [Mac_OS_1.3.0](https://bluepi.lanzouy.com/iMP1k13a2afc)      | [Mac_OS_64位_0.4.2](https://bluepi.lanzouy.com/ifepe13bl6zi) |
 | 区别                                     | 有触发阈值调节                                               | 无触发阈值调节                                               |
 
