@@ -158,21 +158,13 @@ keywords: 逻辑分析仪, 400M,
 
 ### 触发电压选择
 
-| 支持协议    \    支持软件 | DSView | PulseView |
-| ------------------------- | ------ | --------- |
-| IIC                       | 支持   | 支持      |
-| SPI                       | 支持   | 支持      |
-| UART                      | 支持   | 支持      |
+| 支持协议    \    支持软件 | DSView              | PulseView |
+| ------------------------- | ------------------- | --------- |
+| 触发阈值调节              | 0.1V-5.0V(0.1V步进) | 不支持    |
+
+触发电压方法如下图所示。
+
+<img src="/images/posts/dslogic/trig_voltage.png" alt="触发电压设置方法"/>
 
 
-
-+Analyzers分析里面选择，show more analyzers.选择Addressable LEDs(Async)
-
-<img src="/images/posts/WS2811/LED_2.png" alt="增加分析协议"/>
-
-LED Channel 里面选择当前接线的通道，
-
-LED Controller 里面选择WS2811协议。完成设置开始分析。
-
-<img src="/images/posts/WS2811/LED_3.png" alt="增加分析协议，选择通道"/>
 
