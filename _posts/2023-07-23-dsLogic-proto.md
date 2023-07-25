@@ -236,6 +236,8 @@ stream流采样模式里面的滚动实时采样功能是V1.3.0新加入功能�
 
 DSview在V1.3.0这个版本终于完胜PluseView.
 
+增加滚动（loop）采集模式，可一直保持采集，实时滚动显示.v1.3.0 -- (2023-07-18)
+
 <img src="/images/posts/dslogic/sample_mode.png" alt="采样Stream模式同步显示"/>
 
 ### 发货清单
