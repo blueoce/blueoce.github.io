@@ -244,6 +244,8 @@ DSview在V1.3.0这个版本终于完胜PluseView.
 
 结论：DSView已经包含所有PluseView的功能，请优先选择DSView，PluseView存储深度的问题已经在修复中了。欢迎大牛一起讨论。
 
+如果一定要使用PluseView，切记，第一存储深度要小，超过深度后为0，第二要设置边沿触发，这样可以避免干扰产生。
+
 <img src="/images/posts/dslogic/pluseview_erro.png" alt="PluseView存储深度有问题"/>
 
 ### 发货清单
