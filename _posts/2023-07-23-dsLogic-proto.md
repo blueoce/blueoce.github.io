@@ -240,6 +240,12 @@ DSview在V1.3.0这个版本终于完胜PluseView.
 
 <img src="/images/posts/dslogic/sample_mode.png" alt="采样Stream模式同步显示"/>
 
+### PluseView版本兼容性说明
+
+结论：DSView已经包含所有PluseView的功能，请优先选择DSView，PluseView存储深度的问题已经在修复中了。欢迎大牛一起讨论。
+
+<img src="/images/posts/dslogic/pluseview_erro.png" alt="PluseView存储深度有问题"/>
+
 ### 发货清单
 
 | 序号 | 发货清单                                  |
