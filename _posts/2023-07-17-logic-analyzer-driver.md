@@ -64,3 +64,11 @@ Logic-1.2.40-Windows (1)\Logic-1.2.40\Drivers    一代软件
 
 <img src="/images/posts/driver/driver_VID.png" alt="二代软件已经连接" />
 
+### 手动指定类型安装的方法
+
+如下图所示，按照图示一步一步操作，直到第七步安装成功，第四步如果没有找到saleae LLC的厂商，就选择标准USB控制器。
+
+<img src="/images/posts/driver/driver_force.png" alt="二代软件已经连接" />
+
+
+
