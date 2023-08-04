@@ -10,6 +10,12 @@ keywords: 逻辑分析仪, 24M
 
 * TOC
 {:toc}
+### 首先要保证短路帽要连接正常
+
+如下图所示：
+
+<img src="/images/posts/driver/driver_install_plus.png" alt="短路帽的连接方法" />
+
 ### 插上USB设备，软件显示未连接
 
 1.2.40 或者其他1代的软件版本，插上USB后未连接如下图所示。
