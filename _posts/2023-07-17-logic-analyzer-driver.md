@@ -58,3 +58,9 @@ Logic-1.2.40-Windows (1)\Logic-1.2.40\Drivers    一代软件
 
 <img src="/images/posts/driver/link_b.png" alt="二代软件已经连接" />
 
+### 如果尝试了以上的方法还不行 请查看VID码
+
+在设备管理器中，查看VID码可以判断设备连接的状态。如下图：
+
+<img src="/images/posts/driver/driver_VID.png" alt="二代软件已经连接" />
+
