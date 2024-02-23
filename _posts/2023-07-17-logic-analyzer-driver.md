@@ -70,5 +70,13 @@ Logic-1.2.40-Windows (1)\Logic-1.2.40\Drivers    一代软件
 
 <img src="/images/posts/driver/driver_force.png" alt="二代软件已经连接" />
 
+### 如果按照上述方法还不能正常按照驱动（建议先换自己私人的电脑先测试一下）
 
+是公司加密系统的问题，请看下面的聊天记录。换个电脑试试是最省时间的方法。
+
+<img src="/images/posts/driver/driver_custom_1.png" alt="客户聊天记录1" />
+
+<img src="/images/posts/driver/driver_custom_2.png" alt="客户聊天记录2" />
+
+<img src="/images/posts/driver/driver_custom_3.png" alt="客户聊天记录3" />
 
