@@ -1,9 +1,9 @@
 ---
 layout: post
-title: usb sniffer
-categories: usb sniffer  
+title: usb_sniffer
+categories: usb_sniffer  
 description: 软件使用方法
-keywords: 逻辑分析仪, usb sniffer, 
+keywords: 逻辑分析仪,usb_sniffer, 
 ---
 
 **目录**
@@ -30,3 +30,4 @@ LED Channel 里面选择当前接线的通道，
 LED Controller 里面选择WS2811协议。完成设置开始分析。
 
 <img src="/images/posts/WS2811/LED_3.png" alt="增加分析协议，选择通道"/>
+
