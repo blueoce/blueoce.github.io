@@ -24,6 +24,50 @@ keywords: 逻辑分析仪,usb_sniffer,
 
    软件安装默认下一步安装就行，直到软件安装完成。软件无需破解，安装完成就可以使用。
 
+step1 如下图所示：
+
+<img src="/images\posts\sniffer/2软件安装_S1.png" alt="2软件安装_S1.png"/>
+
+step2 如下图所示：
+
+<img src="/images\posts\sniffer/2软件安装_S2.png" alt="2软件安装_S2.png"/>
+
+step3 如下图所示：
+
+<img src="/images\posts\sniffer/2软件安装_S3.png" alt="2软件安装_S3.png"/>
+
+step4 如下图所示：
+
+<img src="/images\posts\sniffer/2软件安装_S4.png" alt="2软件安装_S4.png"/>
+
+step5 如下图所示：
+
+<img src="/images\posts\sniffer/2软件安装_S5.png" alt="2软件安装_S5.png"/>
+
+step6 如下图所示：
+
+<img src="/images\posts\sniffer/2软件安装_S6.png" alt="2软件安装_S6.png"/>
+
+step7 如下图所示：
+
+<img src="/images\posts\sniffer/2软件安装_S7.png" alt="2软件安装_S7.png"/>
+
+step8 如下图所示：
+
+<img src="/images\posts\sniffer/2软件安装_S8.png" alt="2软件安装_S8.png"/>
+
+step9 如下图所示：
+
+<img src="/images\posts\sniffer/2软件安装_S9.png" alt="2软件安装_S9.png"/>
+
+step10 如下图所示：
+
+<img src="/images\posts\sniffer/2软件安装_S10.png" alt="2软件安装_S10.png"/>
+
+step11 如下图所示：
+
+<img src="/images\posts\sniffer/2软件安装_S11.png" alt="2软件安装_S11.png"/>
+
 # 3插件安装
 
 配置驱动接口，wireshark支持软件USB抓包和硬件USB抓包的两种方式。软件抓包叫USBPcap ,在安装软件的时候可以勾选，由于我们有USB  sniffer 这个硬件抓包接口，所以并不会调用软件抓包这个接口。
