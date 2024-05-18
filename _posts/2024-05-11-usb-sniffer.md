@@ -12,11 +12,12 @@ keywords: 逻辑分析仪,usb_sniffer,
 {:toc}
 # 1安装软件下载
 
-| 版本描述                           | Wireshark                                                | 插件驱动包                                                   |
-| ---------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------ |
-| 2024年5月最新版本【Version 4.2.4】 | [Version 4.2.4](https://bluepi.lanzouo.com/iLg1L1yj7fjg) | [win+linux+操作说明v1](https://bluepi.lanzouo.com/i3DZI1yjm7ti) |
-|                                    |                                                          |                                                              |
-| 最新软件获取网址                   | [官网下载](https://www.wireshark.org/download.html)      |                                                              |
+| 版本描述                                                    | Wireshark                                                    | 插件驱动包                                                   |
+| ----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 2024年5月最新版本【Version 4.2.4】                          | [Version 4.2.4](https://bluepi.lanzouo.com/iLg1L1yj7fjg)     | [win+linux+操作说明v1](https://bluepi.lanzouo.com/i3DZI1yjm7ti) |
+|                                                             |                                                              |                                                              |
+| 由于服务器在国外，为翻墙国内用户请直接下载网页的PDF版本——》 | [提交版本[c25a352]_网页](https://bluepi.lanzouo.com/iCwyi1z2mxaj) |                                                              |
+| 最新软件获取网址                                            | [官网下载](https://www.wireshark.org/download.html)          |                                                              |
 
 # 2软件安装
 
