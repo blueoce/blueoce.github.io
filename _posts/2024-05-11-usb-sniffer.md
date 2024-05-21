@@ -54,7 +54,7 @@ keywords: 逻辑分析仪,usb_sniffer,
 | ----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 2024年5月最新版本【Version 4.2.5】                          | [Version 4.2.5](https://bluepi.lanzouo.com/iLg1L1yj7fjg)     | [win+linux+操作说明v1](https://bluepi.lanzouo.com/i3DZI1yjm7ti) |
 |                                                             | [Version 4.2.4](https://bluepi.lanzouo.com/iLg1L1yj7fjg)     |                                                              |
-| 由于服务器在国外，未翻墙国内用户请直接下载网页的PDF版本——》 | [提交版本[c25a352]_网页](https://bluepi.lanzouo.com/iCwyi1z2mxaj) | updata 2024/5/21                                             |
+| 由于服务器在国外，未翻墙国内用户请直接下载网页的PDF版本——》 | [提交版本[78bf8a6]_网页](https://bluepi.lanzouo.com/iGRMs1zeoocb) | updata 2024/5/21                                             |
 |                                                             | [提交版本[c25a352]_网页](https://bluepi.lanzouo.com/iCwyi1z2mxaj) | updata 2024/5/18                                             |
 | 最新软件获取网址                                            | [官网下载](https://www.wireshark.org/download.html)          |                                                              |
 
