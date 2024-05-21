@@ -10,13 +10,52 @@ keywords: 逻辑分析仪,usb_sniffer,
 
 * TOC
 {:toc}
+# 0常见问题解答---非常重要---真的非常重要---真的真的非常重要
+
+## 问题1：usb插件在哪里下载？
+
+参考《1安装软件下载》 右边的USB插件驱动包里面。在插件驱动包里面。
+
+## 问题2：Wireshark没有 USB Sniffer的选项？
+
+参考《3插件安装》必须找到 【C:\Program Files\Wireshark\extcap】这个文件夹，并拷贝usb_sniffer_win.exe到其目录下。才会有USB Sniffer选项.
+
+## 问题3：找不到usb_sniffer_win.exe文件？
+
+参考《1安装软件下载》 右边的USB插件驱动包里面。在插件驱动包里面。
+
+## 问题4：解析的数据感觉不对，没有USB数据包？
+
+参考《4软件使用---USB抓包方法》里面《2 正确的选择捕捉速度》，尝试用三种不同的速度（低速，全速，高速）去捕捉，能看到USB数据包就是正确的速度。
+
+## 问题5：如何设置USB捕捉速度？
+
+参考《4软件使用---USB抓包方法》里面《双击打开Wireshark软件》，看左边圆形的图标，点击进入。设置捕捉速度。
+
+## 问题6：为啥我的捕捉不到数据？
+
+对于初始使用USB snifer,建议先测USB鼠标设备，鼠标一直会发数据包，比较容易看。捕捉速度：低速。
+
+## 问题7：捕捉不到数据？
+
+建议，先开启软件捕捉功能，在去插如USB设备，这样才是正确的顺序，先插设备，再开捕捉会丢失很多数据。
+
+## 问题8：文档的图片我看不到怎么办？
+
+参考《1安装软件下载》里面《由于服务器在国外，未翻墙国内用户请直接下载网页的PDF版本》右边最新pdf的提交版本。
+
+## 感谢大家的提问！！！
+
+
+
 # 1安装软件下载
 
-| 版本描述                                                    | Wireshark                                                    | 插件驱动包                                                   |
+| 版本描述                                                    | Wireshark                                                    | USB插件驱动包                                                |
 | ----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 2024年5月最新版本【Version 4.2.4】                          | [Version 4.2.4](https://bluepi.lanzouo.com/iLg1L1yj7fjg)     | [win+linux+操作说明v1](https://bluepi.lanzouo.com/i3DZI1yjm7ti) |
-|                                                             |                                                              |                                                              |
-| 由于服务器在国外，未翻墙国内用户请直接下载网页的PDF版本——》 | [提交版本[c25a352]_网页](https://bluepi.lanzouo.com/iCwyi1z2mxaj) |                                                              |
+| 2024年5月最新版本【Version 4.2.5】                          | [Version 4.2.5](https://bluepi.lanzouo.com/iLg1L1yj7fjg)     | [win+linux+操作说明v1](https://bluepi.lanzouo.com/i3DZI1yjm7ti) |
+|                                                             | [Version 4.2.4](https://bluepi.lanzouo.com/iLg1L1yj7fjg)     |                                                              |
+| 由于服务器在国外，未翻墙国内用户请直接下载网页的PDF版本——》 | [提交版本[c25a352]_网页](https://bluepi.lanzouo.com/iCwyi1z2mxaj) | updata 2024/5/21                                             |
+|                                                             | [提交版本[c25a352]_网页](https://bluepi.lanzouo.com/iCwyi1z2mxaj) | updata 2024/5/18                                             |
 | 最新软件获取网址                                            | [官网下载](https://www.wireshark.org/download.html)          |                                                              |
 
 # 2软件安装
