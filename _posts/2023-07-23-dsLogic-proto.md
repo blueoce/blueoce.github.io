@@ -12,18 +12,21 @@ keywords: 逻辑分析仪, 400M,
 {:toc}
 ### 400M逻辑分析仪安装软件下载地址
 
-| 支持协议    \    支持软件                | DSView 下载地址                                              | PulseView 下载地址                                           |
-| ---------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| windows 64位(包含 win7 win8 win10 win11) | [window_64位_1.3.0](https://bluepi.lanzouo.com/iTw8H1ttrpna) | [window_64位_0.4.2](https://bluepi.lanzouy.com/ivhzN13bm3sj) |
-|                                          | [window_64位_1.3.1](https://bluepi.lanzouo.com/iYe6s1ttqgkh) |                                                              |
-| windows 32位(包含 win7 win8 )            | [window_32位_1.1.2](https://bluepi.lanzouy.com/ixwuW13a282h) | [window_32位_0.4.2](https://bluepi.lanzouy.com/iKs3X13a7ltc) |
-|                                          | [window_32位_1.3.1](https://bluepi.lanzouo.com/iAkhX1ttqiod) |                                                              |
-| Ubuntu 等 Linux版本64位                  | [linux_1.3.0](https://bluepi.lanzouy.com/ixwuW13a282h)       | [linux_64位_0.4.2](https://bluepi.lanzouy.com/i9Go313blp4b)  |
-|                                          | [linux_1.3.1](https://bluepi.lanzouo.com/ifI1I1ttrcze) 密码:19so |                                                              |
-| Ubuntu 等 Linux版本32位                  |                                                              | [linux_32位_0.4.2](https://bluepi.lanzouy.com/ipqyo13bunmb)  |
-| Mac_OS X10.13 及以上版本64位             | [Mac_OS_1.3.0](https://bluepi.lanzouy.com/iMP1k13a2afc)      | [Mac_OS_64位_0.4.2](https://bluepi.lanzouy.com/ifepe13bl6zi) |
-|                                          |                                                              [Mac_OS_1.3.1](https://bluepi.lanzouo.com/iV3001ttrbpi)|                                                              |
-| 区别                                     | 有触发阈值调节                                               | 无触发阈值调节                                               |
+| 支持协议    \    支持软件                            | DSView 下载地址                                              | PulseView 下载地址                                           |
+| ---------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| windows 64位(包含 win7 win8 win10 win11)             | [window_64位_1.3.0](https://bluepi.lanzouo.com/iTw8H1ttrpna) | [window_64位_0.4.2](https://bluepi.lanzouy.com/ivhzN13bm3sj) |
+|                                                      | [window_64位_1.3.1](https://bluepi.lanzouo.com/iYe6s1ttqgkh) |                                                              |
+|                                                      | [window_64位_1.3.2](https://bluepi.lanzouo.com/is6GX20rpjaj) |                                                              |
+| windows 32位(包含 win7 win8 )                        | [window_32位_1.1.2](https://bluepi.lanzouy.com/ixwuW13a282h) | [window_32位_0.4.2](https://bluepi.lanzouy.com/iKs3X13a7ltc) |
+|                                                      | [window_32位_1.3.1](https://bluepi.lanzouo.com/iAkhX1ttqiod) |                                                              |
+|                                                      | [window_32位_1.3.2](https://bluepi.lanzouo.com/iYIGC20rpkyj) |                                                              |
+| Ubuntu 等 Linux版本64位                              | [linux_1.3.0](https://bluepi.lanzouy.com/ixwuW13a282h)       | [linux_64位_0.4.2](https://bluepi.lanzouy.com/i9Go313blp4b)  |
+|                                                      | [linux_1.3.1](https://bluepi.lanzouo.com/ifI1I1ttrcze) 密码:19so |                                                              |
+| Ubuntu 等 Linux版本32位                              |                                                              | [linux_32位_0.4.2](https://bluepi.lanzouy.com/ipqyo13bunmb)  |
+| Mac_OS X10.13 及以上版本64位                         | [Mac_OS_1.3.0](https://bluepi.lanzouy.com/iMP1k13a2afc)      | [Mac_OS_64位_0.4.2](https://bluepi.lanzouy.com/ifepe13bl6zi) |
+|                                                      | [Mac_OS_1.3.1](https://bluepi.lanzouo.com/iV3001ttrbpi)      |                                                              |
+| 区别                                                 | 有触发阈值调节                                               | 无触发阈值调节                                               |
+| 如果上面的连接下载不了，请用右边的百度网盘下载----》 | 链接：https://pan.baidu.com/s/19ENVi4SG7Me3n0dv42y1ew <br/>提取码：1234 |                                                              |
 
 ### PulseView安装驱动文件的方法
 
