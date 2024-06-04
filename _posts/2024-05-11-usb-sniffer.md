@@ -64,14 +64,15 @@ host端必须也接线到电脑。
 
 # 1安装软件下载
 
-| 版本描述                                                    | Wireshark                                                    | USB插件驱动包                                                |
-| ----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 2024年5月最新版本【Version 4.2.5】                          | [Version 4.2.5](https://bluepi.lanzouo.com/iLg1L1yj7fjg)     | [win+linux+操作说明v1](https://bluepi.lanzouo.com/i3DZI1yjm7ti) |
-|                                                             | [Version 4.2.4](https://bluepi.lanzouo.com/iLg1L1yj7fjg)     |                                                              |
-| 由于服务器在国外，未翻墙国内用户请直接下载网页的PDF版本——》 | [提交版本[ae3e5fce]_网页](https://bluepi.lanzouo.com/iVhoS20s22wh) | updata 2024/6/4                                              |
-|                                                             | [提交版本[78bf8a6]_网页](https://bluepi.lanzouo.com/iGRMs1zeoocb) | updata 2024/5/21                                             |
-|                                                             | [提交版本[c25a352]_网页](https://bluepi.lanzouo.com/iCwyi1z2mxaj) | updata 2024/5/18                                             |
-| 最新软件获取网址                                            | [官网下载](https://www.wireshark.org/download.html)          |                                                              |
+| 版本描述                                                     | Wireshark                                                    | USB插件驱动包                                                |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 2024年5月最新版本【Version 4.2.5】                           | [Version 4.2.5](https://bluepi.lanzouo.com/iLg1L1yj7fjg)     | [win+linux+操作说明v1](https://bluepi.lanzouo.com/i3DZI1yjm7ti) |
+|                                                              | [Version 4.2.4](https://bluepi.lanzouo.com/iLg1L1yj7fjg)     |                                                              |
+| 由于服务器在国外，未翻墙国内用户无法打开图片，请直接下载网页打印PDF版本，新增加标签跳转功能——》 | [提交版本[e35b59a1]_网页](https://bluepi.lanzouo.com/ij3Cx20v426b) | updata 2024/6/5                                              |
+|                                                              | [提交版本[ae3e5fce]_网页](https://bluepi.lanzouo.com/iVhoS20s22wh) | updata 2024/6/4                                              |
+|                                                              | [提交版本[78bf8a6]_网页](https://bluepi.lanzouo.com/iGRMs1zeoocb) | updata 2024/5/21                                             |
+|                                                              | [提交版本[c25a352]_网页](https://bluepi.lanzouo.com/iCwyi1z2mxaj) | updata 2024/5/18                                             |
+| 最新软件获取网址                                             | [官网下载](https://www.wireshark.org/download.html)          |                                                              |
 
 # 2软件安装
 
