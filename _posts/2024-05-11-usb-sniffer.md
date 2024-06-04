@@ -182,3 +182,6 @@ step11 如下图所示：
 # 6 常见问题详解---HOST没有接线
 
 <img src="/images\posts\sniffer/客户问题—接线图.png" alt="客户问题—接线图"/>
+下图是正确的示例：
+host线必须接，host线必须接，host线必须接！！！
+<img src="/images\posts\sniffer/客户问题_接线图_正确1.png" alt="客户问题_接线图_正确1.png"/>
