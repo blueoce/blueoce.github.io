@@ -14,15 +14,15 @@ keywords: 逻辑分析仪,usb_sniffer,
 
 ## 问题1：usb插件在哪里下载？
 
-参考《1安装软件下载》 右边的USB插件驱动包里面。在插件驱动包里面。
+参考《1安装软件下载》 右边的USB插件驱动包里面。在插件驱动包里面。找到【usb_sniffer_win.exe】+操作说明v1]，下载。
 
 ## 问题2：Wireshark没有 USB Sniffer的选项？
 
 参考《3插件安装》必须找到 【C:\Program Files\Wireshark\extcap】这个文件夹，并拷贝usb_sniffer_win.exe到其目录下。才会有USB Sniffer选项.
 
-## 问题3：找不到usb_sniffer_win.exe文件？
+## 问题3：找不到usb_sniffer_win.exe文件？！！！多次询问！！！
 
-参考《1安装软件下载》 右边的USB插件驱动包里面。在插件驱动包里面。
+参考《1安装软件下载》 右边的USB插件驱动包里面。在插件驱动包里面。找到【usb_sniffer_win.exe】+操作说明v1]，下载。
 
 ## 问题4：解析的数据感觉不对，没有USB数据包？
 
@@ -64,9 +64,9 @@ host端必须也接线到电脑。
 
 # 1安装软件下载
 
-| 版本描述                                                     | Wireshark                                                    | USB插件驱动包                                                |
+| 版本描述                                                     | Wireshark                                                    | USB插件驱动包↓↓↓                                             |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 2024年5月最新版本【Version 4.2.5】                           | [Version 4.2.5](https://bluepi.lanzouo.com/iLg1L1yj7fjg)     | [win+linux+操作说明v1](https://bluepi.lanzouo.com/i3DZI1yjm7ti) |
+| 2024年5月最新版本【Version 4.2.5】                           | [Version 4.2.5](https://bluepi.lanzouo.com/iLg1L1yj7fjg)     | [【usb_sniffer_win.exe】+操作说明v1](https://bluepi.lanzouo.com/i3DZI1yjm7ti) |
 |                                                              | [Version 4.2.4](https://bluepi.lanzouo.com/iLg1L1yj7fjg)     |                                                              |
 | 由于服务器在国外，未翻墙国内用户无法打开图片，请直接下载网页打印PDF版本，新增加标签跳转功能——》 | [提交版本[e35b59a1]_网页](https://bluepi.lanzouo.com/ij3Cx20v426b) | updata 2024/6/5                                              |
 |                                                              | [提交版本[ae3e5fce]_网页](https://bluepi.lanzouo.com/iVhoS20s22wh) | updata 2024/6/4                                              |
