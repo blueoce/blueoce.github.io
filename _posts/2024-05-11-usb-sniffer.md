@@ -78,7 +78,8 @@ host端必须也接线到电脑。
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 2024年5月最新版本【Version 4.2.5】                           | [Version 4.2.5](https://bluepi.lanzouo.com/iLg1L1yj7fjg)     | [【usb_sniffer_win.exe】+操作说明v1](https://bluepi.lanzouo.com/i3DZI1yjm7ti) |
 |                                                              | [Version 4.2.4](https://bluepi.lanzouo.com/iLg1L1yj7fjg)     |                                                              |
-| 由于服务器在国外，未翻墙国内用户可能无法打开图片，请直接下载网页打印PDF版本，最新版本——》 | [[提交版本[0e1bf1b5]_网页](https://bluepi.lanzouo.com/iIZoB213nafa) | updata 2024/6/7                                              |
+| 由于服务器在国外，未翻墙国内用户可能无法打开图片，请直接下载网页打印PDF版本，最新版本——》 | [[提交版本[792217b4]_网页](https://bluepi.lanzouo.com/iX9zd226im8j) | updata 2024/6/19                                             |
+|                                                              | [[提交版本[0e1bf1b5]_网页](https://bluepi.lanzouo.com/iIZoB213nafa) | updata 2024/6/7                                              |
 |                                                              | [提交版本[e35b59a1]_网页](https://bluepi.lanzouo.com/ij3Cx20v426b) | updata 2024/6/5                                              |
 |                                                              | [提交版本[ae3e5fce]_网页](https://bluepi.lanzouo.com/iVhoS20s22wh) | updata 2024/6/4                                              |
 |                                                              | [提交版本[78bf8a6]_网页](https://bluepi.lanzouo.com/iGRMs1zeoocb) | updata 2024/5/21                                             |
