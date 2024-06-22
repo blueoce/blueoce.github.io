@@ -195,7 +195,7 @@ step11 如下图所示：
 例子1：usb.src=="0.10.1"&& (usb.dst=="host")&&(usb.bInterfaceClass=="hid")&&(frame.len != 100)
 
 例子2：!(syslog.msg == "USB PHY error") &&!(usbll.invalid_pid) && !(usbll.pid == 0x5a) && !(usbll.pid == 0xa5) && !(usbll.pid == 0x69)
-
+例子3：syslog && frame.len ==38
 ```
 
 # 6 常见问题详解---HOST没有接线
