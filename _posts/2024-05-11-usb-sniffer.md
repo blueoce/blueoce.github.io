@@ -196,6 +196,7 @@ step11 如下图所示：
 
 例子2：!(syslog.msg == "USB PHY error") &&!(usbll.invalid_pid) && !(usbll.pid == 0x5a) && !(usbll.pid == 0xa5) && !(usbll.pid == 0x69)
 例子3：syslog && frame.len ==38
+例子4：syslog && frame.len ==38 && syslog.msg =="Hardware buffer overflow"
 ```
 
 # 6 常见问题详解---HOST没有接线
