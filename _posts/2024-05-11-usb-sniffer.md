@@ -66,6 +66,24 @@ host端必须也接线到电脑。
 在设备速度选择的选择框下面有一个，折叠空白包的功能，Fold empty frames,当捕捉卡顿的时候，建议勾选节省CPU和RAM的资料，让捕捉响应更及时。
 参考《8 常见问题详解---空包过滤》有图文说明。
 
+## 问题13：USB3.0设备有限支持，测U盘等大容量存储时，建议使用USB2.0U盘
+
+在测试U盘这种大容量存储时，建议使用USB2.0设备，USB3.0数据量太大容易发生错误，USB2.0U盘可以很好的解决这个问题。
+
+## 问题14：如何用命令行工具捕捉数据
+
+详细参考《10 命令行工具》。
+
+
+[HS]  .\usb_sniffer_win.exe -s hs -c -f hs_capture.pcapng    
+[HS_fold]  .\usb_sniffer_win.exe -s hs -l -c -f hs_capture.pcapng
+
+[FS] .\usb_sniffer_win.exe -s fs -c -f fs_capture.pcapng
+[FS_fold] .\usb_sniffer_win.exe -s fs -l -c -f fs_capture.pcapng
+
+[LS] .\usb_sniffer_win.exe -s ls -c -f ls_capture.pcapng 
+[LS_fold] .\usb_sniffer_win.exe -s ls -l -c -f ls_capture.pcapng 
+
 ## 提问注意：首先感谢大家的提问！！！提问时请注意：请先拍照，或截图，最好拍视频，反应问题，再发文字描述，这个可以提高提问的效率，避免我司技术人员猜测老板们的实际情况，浪费宝贵的时间。
 
 各位各样的问题我们都遇到过，相信专业的力量！！！
@@ -197,6 +215,7 @@ step11 如下图所示：
 例子2：!(syslog.msg == "USB PHY error") &&!(usbll.invalid_pid) && !(usbll.pid == 0x5a) && !(usbll.pid == 0xa5) && !(usbll.pid == 0x69)
 例子3：syslog && frame.len ==38
 例子4：syslog && frame.len ==38 && syslog.msg =="Hardware buffer overflow"
+例子5：(syslog && frame.len ==38 && syslog.msg =="Hardware buffer overflow") || (usb.idProduct && usb.dst =="host")
 ```
 
 # 6 常见问题详解---HOST没有接线
@@ -229,3 +248,38 @@ host线必须接，host线必须接，host线必须接！！！
 下图3 ，USB高速设备U盘的数据示例：
 
 <img src="/images\posts\sniffer/软件_高速U盘.png" alt="软件_高速U盘.png"/>
+
+# 10 命令行工具
+
+
+
+```c
+Usage: .\usb_sniffer_win.exe [options]
+
+General:
+  -h, --help                     print this help message and exit
+
+Capture:
+  -s, --speed <speed>            select USB speed: 'ls', 'fs' (default) or 'hs'
+  -l, --fold                     fold empty frames
+  -n, --limit <number>           limit the number of captured packets
+  -t, --trigger <type>           capture trigger: 'disabled' (default), 'low', 'high', 'falling' or 'rising'
+  --test                         perform a transfer rate test
+
+Wireshark extcap:
+  --extcap-version <version>     show the version of this utility
+  --extcap-dlts                  provide a list of dlts for the given interface
+  --extcap-interfaces            provide a list of interfaces to capture from
+  --extcap-interface <name>      provide the interface to capture from
+  --extcap-config                provide a list of configurations for the given interface
+  -c, --capture                  start capture
+  -f, --fifo <name>              output fifo or file name
+
+Firmware update:
+  --mcu-sram <name>              upload FX2LP firmware into the SRAM and run it
+  --mcu-eeprom <name>            program FX2LP firmware into the EEPROM
+  --fpga-sram <name>             upload BIT file into the FPGA SRAM
+  --fpga-flash <name>            program JED file into the FPGA flash
+  --fpga-erase                   erase FPGA flash
+```
+
