@@ -98,7 +98,8 @@ host端必须也接线到电脑。
 |                                                              | [Version 4.2.7](https://bluepi.lanzouo.com/iu59S2av00ze)     |                                                              |
 |                                                              | [Version 4.2.5](https://bluepi.lanzouo.com/iyOtA2av0dda)     |                                                              |
 |                                                              | [Version 4.2.4](https://bluepi.lanzouo.com/iLg1L1yj7fjg)     |                                                              |
-| 由于服务器在国外，未翻墙国内用户可能无法打开图片，请直接下载网页打印PDF版本，最新版本——》 | [[提交版本[792217b4]_网页](https://bluepi.lanzouo.com/iX9zd226im8j) | updata 2024/6/19                                             |
+| 由于服务器在国外，未翻墙国内用户可能无法打开图片，请直接下载网页打印PDF版本，最新版本——》 | [[提交版本[5af77fb]_网页](https://bluepi.lanzouo.com/iloKW2av1zbg) | updata 2024/9/26                                             |
+|                                                              | [[提交版本[792217b4]_网页](https://bluepi.lanzouo.com/iX9zd226im8j) | updata 2024/6/19                                             |
 |                                                              | [[提交版本[0e1bf1b5]_网页](https://bluepi.lanzouo.com/iIZoB213nafa) | updata 2024/6/7                                              |
 |                                                              | [提交版本[e35b59a1]_网页](https://bluepi.lanzouo.com/ij3Cx20v426b) | updata 2024/6/5                                              |
 |                                                              | [提交版本[ae3e5fce]_网页](https://bluepi.lanzouo.com/iVhoS20s22wh) | updata 2024/6/4                                              |
