@@ -213,11 +213,13 @@ step11 如下图所示：
 
 ```
 例子1：usb.src=="0.10.1"&& (usb.dst=="host")&&(usb.bInterfaceClass=="hid")&&(frame.len != 100)
-
 例子2：!(syslog.msg == "USB PHY error") &&!(usbll.invalid_pid) && !(usbll.pid == 0x5a) && !(usbll.pid == 0xa5) && !(usbll.pid == 0x69)
 例子3：syslog && frame.len ==38
 例子4：syslog && frame.len ==38 && syslog.msg =="Hardware buffer overflow"
 例子5：(syslog && frame.len ==38 && syslog.msg =="Hardware buffer overflow") || (usb.idProduct && usb.dst =="host")
+例子6：subll.data contains 80:06:00:01:00:00:12:00 
+例子7：过滤空包的第二种方法 (frame.len != 24) && (frame.len > 3)
+例子8：过滤空包的第三种方法 (syslog.msg != Keep-alive) || (usb)
 ```
 
 # 6 常见问题详解---HOST没有接线
