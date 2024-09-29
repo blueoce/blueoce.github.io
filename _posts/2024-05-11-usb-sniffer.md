@@ -167,6 +167,12 @@ step11 如下图所示：
 
 <img src="/images\posts\sniffer/3软件安装_插件目录.png" alt="拷贝调用接口到指定文件夹"/>
 
+v4.40以后的新版本，如果找不到插件请尝试新的路径。复制粘贴 【usb_sniffer_win.exe】到 【C:\Program Files\Wireshark\extcap\wireshark】目录下。
+
+如下图所示:
+
+<img src="/images\posts\sniffer/3软件安装_插件目录B.png" alt="拷贝调用接口到指定文件夹B"/>
+
 # 4软件使用---USB抓包方法
 
 1 双击打开Wireshark软件。
