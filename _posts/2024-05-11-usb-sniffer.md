@@ -227,6 +227,7 @@ v4.40以后的新版本，如果找不到插件请尝试新的路径。复制粘
 例子6：subll.data contains 80:06:00:01:00:00:12:00 
 例子7：过滤空包的第二种方法 (frame.len != 24) && (frame.len > 3)
 例子8：过滤空包的第三种方法 (syslog.msg != Keep-alive) || (usb)
+例子9：过滤心跳包方法 (frame.len != 1) && (frame.len >3 )
 ```
 
 # 6 常见问题详解---HOST没有接线
