@@ -94,10 +94,10 @@ host端必须也接线到电脑。
 
 | 版本描述                                                     | Wireshark                                                    | USB插件驱动包↓↓↓                                             |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 2024年9月最新版本【Version 4.4.4】                           | [Version 4.4.4](https://bluepi.lanzouo.com/i5Uql2av05aj)     | [【usb_sniffer_win.exe】+操作说明v1](https://bluepi.lanzouo.com/i3DZI1yjm7ti) |
+| 2024年9月最新版本，不推荐，有能力可以尝试，【Version 4.4.4】 如果有安装问题，请尝试v4.24. | [Version 4.4.4](https://bluepi.lanzouo.com/i5Uql2av05aj)     | [【usb_sniffer_win.exe】+操作说明v1](https://bluepi.lanzouo.com/i3DZI1yjm7ti) |
 |                                                              | [Version 4.2.7](https://bluepi.lanzouo.com/iu59S2av00ze)     |                                                              |
 |                                                              | [Version 4.2.5](https://bluepi.lanzouo.com/iyOtA2av0dda)     |                                                              |
-|                                                              | [Version 4.2.4](https://bluepi.lanzouo.com/iLg1L1yj7fjg)     |                                                              |
+| -------------------------------------------------------------------------推荐版本--------》》》 | [Version 4.2.4](https://bluepi.lanzouo.com/iLg1L1yj7fjg)     |                                                              |
 | 由于服务器在国外，未翻墙国内用户可能无法打开图片，请直接下载网页打印PDF版本，最新版本——》 | [[提交版本[5af77fb]_网页](https://bluepi.lanzouo.com/iloKW2av1zbg) | updata 2024/9/26                                             |
 |                                                              | [[提交版本[792217b4]_网页](https://bluepi.lanzouo.com/iX9zd226im8j) | updata 2024/6/19                                             |
 |                                                              | [[提交版本[0e1bf1b5]_网页](https://bluepi.lanzouo.com/iIZoB213nafa) | updata 2024/6/7                                              |
