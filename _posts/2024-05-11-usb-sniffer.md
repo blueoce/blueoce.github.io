@@ -94,7 +94,7 @@ host端必须也接线到电脑。
 
 | 版本描述                                                     | Wireshark                                                    | USB插件驱动包↓↓↓                                             |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 2024年9月最新版本，不推荐，有能力可以尝试，【Version 4.4.4】 如果有安装问题，请尝试v4.24. | [Version 4.4.4](https://bluepi.lanzouo.com/i5Uql2av05aj)     | [【usb_sniffer_win.exe】+操作说明v1](https://bluepi.lanzouo.com/i3DZI1yjm7ti) |
+| 2024年9月最新版本，不推荐，有能力可以尝试，【Version 4.4.0】 如果有安装问题，请尝试v4.24. | [Version 4.4.0](https://bluepi.lanzouo.com/i5Uql2av05aj)     | [【usb_sniffer_win.exe】+操作说明v1](https://bluepi.lanzouo.com/i3DZI1yjm7ti) |
 |                                                              | [Version 4.2.7](https://bluepi.lanzouo.com/iu59S2av00ze)     |                                                              |
 |                                                              | [Version 4.2.5](https://bluepi.lanzouo.com/iyOtA2av0dda)     |                                                              |
 | -------------------------------------------------------------------------推荐版本--------》》》 | [Version 4.2.4](https://bluepi.lanzouo.com/iLg1L1yj7fjg)     |                                                              |
